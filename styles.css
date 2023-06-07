@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+}
+body {
+    margin: 0 auto;
+    color: white;
+}
+
+/* navigation */
+
+ nav{
+    background-color: #233e50;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 3rem;
+    justify-content: space-between;     
+}
+    
+ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    gap: 5rem;
+    font-size: 20px;
+    color: white;
+}
+.button{
+    border: none;
+    font-size: 20px;
+    padding: 5px 20px;
+    border-radius: 20px;
+    background-color: #65e4a3;
+    
+}
+a{
+    text-decoration: none;
+}
+
+/* About Us */
+
+.About{
+    background-color: #0a2440;
+    color: #fff;
+    height: 600px;
+    padding: 4rem 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1.5;
+}
+h1{
+    font-size: 3rem;
+}
+p{
+    opacity: 0.5;
+}
+
+/* Image */
+
+.items{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0px;
+}
+.img{
+    position: absolute;
+    top: 350px;
+    left: 5px;
+    color: #fff;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    gap: 1.5;
+}
+.head{
+    position: absolute;
+    top: 300px;
+    left: 350px;
+    color: #fff;
+    height: 600px;
+    padding: 4rem 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1.5;
+}
+.cybersamuza{
+    position: absolute;
+    top: 800px;
+    left: 75px;
+
+}
+.darknero{
+    position: absolute;
+    top: 800px;
+    left: 400px;
+
+}
+.darkwinzo{
+    position: absolute;
+    top: 800px;
+    left: 685px;
+
+}
+.blackalfha{
+    position: absolute;
+    top: 800px;
+    left: 985px;
+
+}
+.Tharu{
+    position: absolute;
+    top: 800px;
+    left: 1300px;
+
+}
+.abotsamuza{
+    position: absolute;
+    top: 800px;
+    left: 1300px;
+
+}
+.samuza{
+    position: absolute;
+    top: 975px;
+    left: 0px;
+
+}
+.aboutow{
+    background-color: #0a2440;
+    color: #fff;
+    height: 600px;
+    padding: 4rem 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1.5;
+}
+.aboutown{
+    position: absolute;
+    top: 850px;
+    left: 525px;
+
+}
+.darksamuzal{
+    background-color: #0a2440;
+    position: absolute;
+    top: 1050px;
+    left: 0px;
+}
+.aboutsam{
+    background-color: #0a2440;
+    position: absolute;
+    top: 1125px;
+    left: 300px;
+}
